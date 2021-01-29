@@ -1,0 +1,9 @@
+[submodule "LAStools"]
+	path = LAStools
+	url = https://github.com/LAStools/LAStools.git
+[submodule "ios-cmake-christeab"]
+	path = ios-cmake-christeab
+	url = https://github.com/cristeab/ios-cmake.git
+[submodule "ios-cmake-leetal"]
+	path = ios-cmake-leetal
+	url = https://github.com/leetal/ios-cmake.git

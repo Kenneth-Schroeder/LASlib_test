@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F101EC225C424D0005B546C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F101EC125C424D0005B546C /* AppDelegate.swift */; };
+		9F101EC425C424D0005B546C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F101EC325C424D0005B546C /* SceneDelegate.swift */; };
+		9F101EC625C424D0005B546C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F101EC525C424D0005B546C /* ViewController.swift */; };
+		9F101EC925C424D0005B546C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F101EC725C424D0005B546C /* Main.storyboard */; };
+		9F101ECB25C424D2005B546C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F101ECA25C424D2005B546C /* Assets.xcassets */; };
+		9F101ECE25C424D2005B546C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F101ECC25C424D2005B546C /* LaunchScreen.storyboard */; };
+		9F101ED925C424D3005B546C /* LASlib_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F101ED825C424D3005B546C /* LASlib_appTests.swift */; };
+		9F101EE425C424D3005B546C /* LASlib_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F101EE325C424D3005B546C /* LASlib_appUITests.swift */; };
+		9F101EF625C42516005B546C /* LASlibWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9F101EF525C42516005B546C /* LASlibWrapper.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F101ED525C424D3005B546C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F101EB625C424D0005B546C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F101EBD25C424D0005B546C;
+			remoteInfo = LASlib_app;
+		};
+		9F101EE025C424D3005B546C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F101EB625C424D0005B546C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F101EBD25C424D0005B546C;
+			remoteInfo = LASlib_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F101EBE25C424D0005B546C /* LASlib_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LASlib_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F101EC125C424D0005B546C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F101EC325C424D0005B546C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9F101EC525C424D0005B546C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F101EC825C424D0005B546C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F101ECA25C424D2005B546C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F101ECD25C424D2005B546C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F101ECF25C424D2005B546C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F101ED425C424D3005B546C /* LASlib_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LASlib_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F101ED825C424D3005B546C /* LASlib_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LASlib_appTests.swift; sourceTree = "<group>"; };
+		9F101EDA25C424D3005B546C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F101EDF25C424D3005B546C /* LASlib_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LASlib_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F101EE325C424D3005B546C /* LASlib_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LASlib_appUITests.swift; sourceTree = "<group>"; };
+		9F101EE525C424D3005B546C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F101EF425C42516005B546C /* LASlib_app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LASlib_app-Bridging-Header.h"; sourceTree = "<group>"; };
+		9F101EF525C42516005B546C /* LASlibWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LASlibWrapper.mm; sourceTree = "<group>"; };
+		9F101EFD25C4252C005B546C /* LASlibWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LASlibWrapper.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F101EBB25C424D0005B546C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F101ED125C424D3005B546C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F101EDC25C424D3005B546C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F101EB525C424D0005B546C = {
+			isa = PBXGroup;
+			children = (
+				9F101EC025C424D0005B546C /* LASlib_app */,
+				9F101ED725C424D3005B546C /* LASlib_appTests */,
+				9F101EE225C424D3005B546C /* LASlib_appUITests */,
+				9F101EBF25C424D0005B546C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F101EBF25C424D0005B546C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F101EBE25C424D0005B546C /* LASlib_app.app */,
+				9F101ED425C424D3005B546C /* LASlib_appTests.xctest */,
+				9F101EDF25C424D3005B546C /* LASlib_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F101EC025C424D0005B546C /* LASlib_app */ = {
+			isa = PBXGroup;
+			children = (
+				9F101EC125C424D0005B546C /* AppDelegate.swift */,
+				9F101EC325C424D0005B546C /* SceneDelegate.swift */,
+				9F101EC525C424D0005B546C /* ViewController.swift */,
+				9F101EC725C424D0005B546C /* Main.storyboard */,
+				9F101ECA25C424D2005B546C /* Assets.xcassets */,
+				9F101ECC25C424D2005B546C /* LaunchScreen.storyboard */,
+				9F101ECF25C424D2005B546C /* Info.plist */,
+				9F101EF525C42516005B546C /* LASlibWrapper.mm */,
+				9F101EF425C42516005B546C /* LASlib_app-Bridging-Header.h */,
+				9F101EFD25C4252C005B546C /* LASlibWrapper.h */,
+			);
+			path = LASlib_app;
+			sourceTree = "<group>";
+		};
+		9F101ED725C424D3005B546C /* LASlib_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F101ED825C424D3005B546C /* LASlib_appTests.swift */,
+				9F101EDA25C424D3005B546C /* Info.plist */,
+			);
+			path = LASlib_appTests;
+			sourceTree = "<group>";
+		};
+		9F101EE225C424D3005B546C /* LASlib_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F101EE325C424D3005B546C /* LASlib_appUITests.swift */,
+				9F101EE525C424D3005B546C /* Info.plist */,
+			);
+			path = LASlib_appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F101EBD25C424D0005B546C /* LASlib_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F101EE825C424D3005B546C /* Build configuration list for PBXNativeTarget "LASlib_app" */;
+			buildPhases = (
+				9F101EBA25C424D0005B546C /* Sources */,
+				9F101EBB25C424D0005B546C /* Frameworks */,
+				9F101EBC25C424D0005B546C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LASlib_app;
+			productName = LASlib_app;
+			productReference = 9F101EBE25C424D0005B546C /* LASlib_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F101ED325C424D3005B546C /* LASlib_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F101EEB25C424D3005B546C /* Build configuration list for PBXNativeTarget "LASlib_appTests" */;
+			buildPhases = (
+				9F101ED025C424D3005B546C /* Sources */,
+				9F101ED125C424D3005B546C /* Frameworks */,
+				9F101ED225C424D3005B546C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F101ED625C424D3005B546C /* PBXTargetDependency */,
+			);
+			name = LASlib_appTests;
+			productName = LASlib_appTests;
+			productReference = 9F101ED425C424D3005B546C /* LASlib_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F101EDE25C424D3005B546C /* LASlib_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F101EEE25C424D3005B546C /* Build configuration list for PBXNativeTarget "LASlib_appUITests" */;
+			buildPhases = (
+				9F101EDB25C424D3005B546C /* Sources */,
+				9F101EDC25C424D3005B546C /* Frameworks */,
+				9F101EDD25C424D3005B546C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F101EE125C424D3005B546C /* PBXTargetDependency */,
+			);
+			name = LASlib_appUITests;
+			productName = LASlib_appUITests;
+			productReference = 9F101EDF25C424D3005B546C /* LASlib_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F101EB625C424D0005B546C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9F101EBD25C424D0005B546C = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+					9F101ED325C424D3005B546C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9F101EBD25C424D0005B546C;
+					};
+					9F101EDE25C424D3005B546C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9F101EBD25C424D0005B546C;
+					};
+				};
+			};
+			buildConfigurationList = 9F101EB925C424D0005B546C /* Build configuration list for PBXProject "LASlib_app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F101EB525C424D0005B546C;
+			productRefGroup = 9F101EBF25C424D0005B546C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F101EBD25C424D0005B546C /* LASlib_app */,
+				9F101ED325C424D3005B546C /* LASlib_appTests */,
+				9F101EDE25C424D3005B546C /* LASlib_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F101EBC25C424D0005B546C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F101ECE25C424D2005B546C /* LaunchScreen.storyboard in Resources */,
+				9F101ECB25C424D2005B546C /* Assets.xcassets in Resources */,
+				9F101EC925C424D0005B546C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F101ED225C424D3005B546C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F101EDD25C424D3005B546C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F101EBA25C424D0005B546C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F101EC625C424D0005B546C /* ViewController.swift in Sources */,
+				9F101EC225C424D0005B546C /* AppDelegate.swift in Sources */,
+				9F101EF625C42516005B546C /* LASlibWrapper.mm in Sources */,
+				9F101EC425C424D0005B546C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F101ED025C424D3005B546C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F101ED925C424D3005B546C /* LASlib_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F101EDB25C424D3005B546C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F101EE425C424D3005B546C /* LASlib_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F101ED625C424D3005B546C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F101EBD25C424D0005B546C /* LASlib_app */;
+			targetProxy = 9F101ED525C424D3005B546C /* PBXContainerItemProxy */;
+		};
+		9F101EE125C424D3005B546C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F101EBD25C424D0005B546C /* LASlib_app */;
+			targetProxy = 9F101EE025C424D3005B546C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F101EC725C424D0005B546C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F101EC825C424D0005B546C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F101ECC25C424D2005B546C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F101ECD25C424D2005B546C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F101EE625C424D3005B546C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F101EE725C424D3005B546C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F101EE925C424D3005B546C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXK358SFX2;
+				INFOPLIST_FILE = LASlib_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HPI.LASlib-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LASlib_app/LASlib_app-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F101EEA25C424D3005B546C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXK358SFX2;
+				INFOPLIST_FILE = LASlib_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HPI.LASlib-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LASlib_app/LASlib_app-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F101EEC25C424D3005B546C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXK358SFX2;
+				INFOPLIST_FILE = LASlib_appTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HPI.LASlib-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LASlib_app.app/LASlib_app";
+			};
+			name = Debug;
+		};
+		9F101EED25C424D3005B546C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXK358SFX2;
+				INFOPLIST_FILE = LASlib_appTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HPI.LASlib-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LASlib_app.app/LASlib_app";
+			};
+			name = Release;
+		};
+		9F101EEF25C424D3005B546C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXK358SFX2;
+				INFOPLIST_FILE = LASlib_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HPI.LASlib-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LASlib_app;
+			};
+			name = Debug;
+		};
+		9F101EF025C424D3005B546C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXK358SFX2;
+				INFOPLIST_FILE = LASlib_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HPI.LASlib-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LASlib_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F101EB925C424D0005B546C /* Build configuration list for PBXProject "LASlib_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F101EE625C424D3005B546C /* Debug */,
+				9F101EE725C424D3005B546C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F101EE825C424D3005B546C /* Build configuration list for PBXNativeTarget "LASlib_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F101EE925C424D3005B546C /* Debug */,
+				9F101EEA25C424D3005B546C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F101EEB25C424D3005B546C /* Build configuration list for PBXNativeTarget "LASlib_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F101EEC25C424D3005B546C /* Debug */,
+				9F101EED25C424D3005B546C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F101EEE25C424D3005B546C /* Build configuration list for PBXNativeTarget "LASlib_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F101EEF25C424D3005B546C /* Debug */,
+				9F101EF025C424D3005B546C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F101EB625C424D0005B546C /* Project object */;
+}
